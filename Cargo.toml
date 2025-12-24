@@ -1,6 +1,13 @@
-[package]
-name = "init"
-version = "0.1.0"
-edition = "2024"
+[workspace]
+resolver = "3"
 
-[dependencies]
+members = [
+  "chapter-01/refactor-demo",
+  "chapter-01/refactor-demo-01-add-test",
+  "chapter-01/refactor-demo-02-decompose-function",
+  "chapter-01/refactor-demo-03-extract-calculation-for-credits",
+  "chapter-01/refactor-demo-04-split-loop",
+  "chapter-01/refactor-demo-05-split-calculation-phase-from-formatting-phase",
+  "chapter-01/refactor-demo-06-reorganize-calculation-process-by-type",
+  "chapter-01/refactor-demo-07-make-calculator-polymorphic",
+]   
