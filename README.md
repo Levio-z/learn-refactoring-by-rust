@@ -4,6 +4,10 @@
 
 Learn Refactoring by Rust is a project that helps you learn refactoring by Rust. Have fun! 🎉
 
+## Chapters
+
+- [Chapter 01: Refactoring Demo](chapter-01/README.md)
+
 ## License
 
 Licensed under either of
