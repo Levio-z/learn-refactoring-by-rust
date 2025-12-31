@@ -9,5 +9,5 @@ members = [
   "chapter-01/refactor-demo-04-split-loop",
   "chapter-01/refactor-demo-05-split-calculation-phase-from-formatting-phase",
   "chapter-01/refactor-demo-06-reorganize-calculation-process-by-type",
-  "chapter-01/refactor-demo-07-make-calculator-polymorphic",
+  "chapter-01/refactor-demo-07-make-calculator-polymorphic", "refactoring-categories/encapsulate-variable",
 ]   
