@@ -3,6 +3,7 @@ mod s01_after_encapsulation;
 mod s02_1_find_modify;
 mod s02_2_clone_encapsulation;
 mod s03_set_clone_encapsulation;
+mod s04_facad;
 
 fn main() {
     s00_before_encapsulation::read_public_mutable_shared_state();
@@ -10,6 +11,7 @@ fn main() {
     s02_1_find_modify::read_public_mutable_shared_state();
     s02_2_clone_encapsulation::read_public_mutable_shared_state();
     s03_set_clone_encapsulation::read_public_mutable_shared_state();
+    s04_facad::read_public_mutable_shared_state();
     println!("Hello, world!");
 }
 
@@ -53,6 +55,14 @@ mod tests {
         // test print content
         assert_eq!(
             s03_set_clone_encapsulation::read_public_mutable_shared_state(),
+            "Spaceship owned by Rebecca Parsons"
+        );
+    }
+    #[test]
+    fn it_works_4() {
+        // test print content
+        assert_eq!(
+            s04_facad::read_public_mutable_shared_state(),
             "Spaceship owned by Rebecca Parsons"
         );
     }
